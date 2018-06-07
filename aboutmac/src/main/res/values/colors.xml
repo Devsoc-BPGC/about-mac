@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mac_color">#388E3C</color>
+    <color name="mac_dark">#1b5e20</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary">@color/mac_color</color>
+</resources>

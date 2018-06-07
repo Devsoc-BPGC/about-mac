@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="aboutAppColorPrimary" format="color" />
+    <attr name="aboutAppColorPrimaryDark" format="color" />
+    <attr name="customTab_toolbar_color" format="color" />
+</resources>

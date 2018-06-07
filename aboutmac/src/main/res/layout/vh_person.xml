@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/iv_avatar"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        fresco:placeholderImage="@drawable/ic_contact" />
+
+    <TextView
+        android:id="@+id/tv_vh_developer_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="21dp"
+        android:paddingTop="5dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_avatar" />
+
+    <TextView
+        android:id="@+id/tv_vh_developer_phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="21dp"
+        android:textColor="?attr/aboutAppColorPrimaryDark"
+        android:textColorLink="?attr/aboutAppColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_avatar"
+        app:layout_constraintTop_toBottomOf="@+id/tv_vh_developer_name"
+        tools:textColor="@android:color/black"
+        tools:textColorLink="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/tv_vh_developer_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="21dp"
+        android:paddingTop="5dp"
+        android:textColor="?attr/aboutAppColorPrimaryDark"
+        android:textColorLink="?attr/aboutAppColorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_avatar"
+        app:layout_constraintTop_toBottomOf="@+id/tv_vh_developer_phone"
+        tools:textColor="@android:color/black"
+        tools:textColorLink="@android:color/holo_green_light" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

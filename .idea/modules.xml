@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/AndroidStudioProjects/AboutMac/AboutMac.iml" filepath="$USER_HOME$/AndroidStudioProjects/AboutMac/AboutMac.iml" />
+      <module fileurl="file://$USER_HOME$/AndroidStudioProjects/AboutMac/aboutmac/aboutmac.iml" filepath="$USER_HOME$/AndroidStudioProjects/AboutMac/aboutmac/aboutmac.iml" />
+    </modules>
+  </component>
+</project>

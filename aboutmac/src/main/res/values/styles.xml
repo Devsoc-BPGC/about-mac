@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/mac_color</item>
+        <item name="aboutAppColorPrimary">@color/mac_color</item>
+        <item name="aboutAppColorPrimaryDark">@color/mac_dark</item>
+        <item name="customTab_toolbar_color">@color/mac_color</item>
+    </style>
+</resources>
